@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Gameactivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:text="Score:"
+            android:id="@+id/textview1"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="0"
+            android:id="@+id/textview2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:textSize="20dp"
+            android:text="Live:"
+            android:id="@+id/textview3"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="3"
+            android:id="@+id/textview4"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time:"
+            android:textSize="20dp"
+            android:paddingLeft="15dp"
+            android:id="@+id/textview5"/>
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:text="60"
+            android:id="@+id/textview6"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="350dp"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="200dp"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_height="300dp"
+            android:id="@+id/textviewquestion"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Write your answers here"
+            android:id="@+id/editextanswer"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_height="wrap_content">
+    <Button
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="check"
+        android:id="@+id/checkbtn"/>
+    <Button
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:text="NEXT"
+        android:id="@+id/nextbtn"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
